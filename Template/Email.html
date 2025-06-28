@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>Dashboard</h2>
+        <ul>
+            <li><a href="/dashboard/main.html">Dashboard</a></li>
+            <li><a href="/dashboard/email.html">Email Details</a></li>
+            <li><a href="#">Campaign Details</a></li>
+            <li><a href="#">Alerts</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <h1>Email Details</h1>
+            <button class="login-btn">Login</button>
+        </div>
+
+        <div class="form-section">
+            <input type="text" placeholder="From Email">
+            <input type="text" placeholder="From Name">
+            <button>Add Email</button>
+        </div>
+
+        <h2>Emails List</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>From Email</th>
+                    <th>From Name</th>
+                    <th>Frequency</th>
+                    <th>Edit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>kathlyn@example.com</td>
+                    <td>Kathlyn</td>
+                    <td>50</td>
+                    <td><a href="#" class="edit-link">edit</a></td>
+                </tr>
+                <tr>
+                    <td>john@example.com</td>
+                    <td>John</td>
+                    <td>30</td>
+                    <td><a href="#" class="edit-link">edit</a></td>
+                </tr>
+                <tr>
+                    <td>mary@example.com</td>
+                    <td>Mary</td>
+                    <td>20</td>
+                    <td><a href="#" class="edit-link">edit</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

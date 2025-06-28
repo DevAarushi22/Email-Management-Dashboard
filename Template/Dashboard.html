@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaign Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>Dashboard</h2>
+        <ul>
+            <li><a href="/dashboard/main.html">Dashboard</a></li>
+            <li><a href="/dashboard/email.html">Email Details</a></li>
+            <li><a href="#">Campaign Details</a></li>
+            <li><a href="#">Alerts</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <h1>Campaign Dashboard</h1>
+            <button class="login-btn">Login</button>
+        </div>
+
+        <div class="stats">
+            <div class="stat-box">
+                <h3>Campaigns Running Today</h3>
+                <p>3</p>
+            </div>
+            <div class="stat-box">
+                <h3>Num. of Mails Sent Today</h3>
+                <p>1,250</p>
+            </div>
+            <div class="stat-box">
+                <h3>Num. of Mails Remaining</h3>
+                <p>750 <a href="#">(edit)</a></p>
+            </div>
+            <div class="stat-box">
+                <h3>Campaign Selection</h3>
+                <p>Cart (t.ctax)</p>
+                <button>Start Campaigns</button>
+            </div>
+        </div>
+
+        <p>Bounce Rate: 1.6%</p>
+
+        <div class="buttons">
+            <button>Start Campaigns</button>
+            <button>Stop Campaigns</button>
+        </div>
+
+        <h2>Campaign Details</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Campaign ID</th>
+                    <th>Sending Email</th>
+                    <th>Sent Count</th>
+                    <th>Num of Mails</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>THERAPY_kathlyn_June4</td>
+                    <td>kathlyn@example.com</td>
+                    <td>0</td>
+                    <td>250</td>
+                </tr>
+                <tr>
+                    <td>WEBINAR_john_June4</td>
+                    <td>john@example.com</td>
+                    <td>1200</td>
+                    <td>900</td>
+                </tr>
+                <tr>
+                    <td>THERAPY_kathlyn_June10</td>
+                    <td>therapy@example.com</td>
+                    <td>500</td>
+                    <td>500</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="buttons">
+            <button>Start Selected</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
